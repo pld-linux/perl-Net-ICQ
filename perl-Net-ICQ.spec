@@ -3,7 +3,7 @@ Summary:	Net-ICQ perl module
 Summary(pl):	Modu³ perla Net-ICQ
 Name:		perl-Net-ICQ
 Version:	0.16
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
