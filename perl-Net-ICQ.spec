@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	ICQ
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net-ICQ perl module
 Summary(pl):	Modu³ perla Net-ICQ
 Name:		perl-Net-ICQ
 Version:	0.16
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -24,7 +23,7 @@ Net-ICQ - simple ICQ client in Perl.
 Net-ICQ - prosty klient ICQ.
 
 %prep
-%setup -q -n Net-ICQ-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
