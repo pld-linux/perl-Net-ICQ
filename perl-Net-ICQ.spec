@@ -40,6 +40,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz client.pl
+%doc *.gz test*.pl
 %{perl_sitelib}/Net/ICQ.pm
 %{_mandir}/man3/*
