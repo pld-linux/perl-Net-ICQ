@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	ICQ
-Summary:	Net-ICQ perl module
-Summary(pl):	Modu³ perla Net-ICQ
+Summary:	Net::ICQ perl module
+Summary(pl):	Modu³ perla Net::ICQ
 Name:		perl-Net-ICQ
 Version:	0.16
 Release:	5
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Net-ICQ - simple ICQ client in Perl.
+Net::ICQ - simple ICQ client in Perl.
 
 %description -l pl
-Net-ICQ - prosty klient ICQ.
+Net::ICQ - prosty klient ICQ.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
