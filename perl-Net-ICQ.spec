@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Net
-%define	pnam	ICQ
+%define		pdir	Net
+%define		pnam	ICQ
 Summary:	Net::ICQ perl module
 Summary(pl):	Modu³ perla Net::ICQ
 Name:		perl-Net-ICQ
