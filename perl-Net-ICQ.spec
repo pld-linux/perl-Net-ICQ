@@ -2,8 +2,8 @@
 Summary:	Net-ICQ perl module
 Summary(pl):	Modu³ perla Net-ICQ
 Name:		perl-Net-ICQ
-Version:	0.08
-Release:	4
+Version:	0.13
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -35,7 +35,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf Changes README* TODO
+gzip -9nf Changes README*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
