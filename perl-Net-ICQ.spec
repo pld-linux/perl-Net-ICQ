@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	ICQ
 Summary:	Net::ICQ perl module
-Summary(pl):	Modu≥ perla Net::ICQ
+Summary(pl.UTF-8):   Modu≈Ç perla Net::ICQ
 Name:		perl-Net-ICQ
 Version:	0.16
 Release:	7
@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Net::ICQ - simple ICQ client in Perl.
 
-%description -l pl
+%description -l pl.UTF-8
 Net::ICQ - prosty klient ICQ.
 
 %prep
