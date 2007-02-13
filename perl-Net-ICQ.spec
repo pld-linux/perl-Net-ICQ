@@ -6,7 +6,7 @@
 %define		pdir	Net
 %define		pnam	ICQ
 Summary:	Net::ICQ perl module
-Summary(pl.UTF-8):   Moduł perla Net::ICQ
+Summary(pl.UTF-8):	Moduł perla Net::ICQ
 Name:		perl-Net-ICQ
 Version:	0.16
 Release:	7
