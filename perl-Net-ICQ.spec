@@ -4,7 +4,6 @@
 
 %define		pdir	Net
 %define		pnam	ICQ
-%include	/usr/lib/rpm/macros.perl
 Summary:	Net::ICQ perl module
 Summary(pl.UTF-8):	Moduł perla Net::ICQ
 Name:		perl-Net-ICQ
